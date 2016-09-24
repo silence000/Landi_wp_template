@@ -23,10 +23,10 @@ body,p,div,span,table,a,h1,h2,h3,li{
     font-family:"微软雅黑";
 }
 div.container{
-     width: 1000px;
-     height: auto;
-     margin-left: auto;
-     margin-right: auto;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0!important;
  }
 div.container-fluid{
