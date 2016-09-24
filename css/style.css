@@ -1,26 +1,66 @@
 @charset "utf-8";
-/*蓝迪网络版权所有
-* 项目开发时间:2016年X月X日
-* 目录
-* ======Page_Index======
-* 一、全局属性
-*  1、container属性
-*  2、container-fluid属性
-* 二、index首页属性
-*  1、导航栏
-*  2、幻灯
-*  3、服务范围
-*  4、关于我们
-*  5、开发流程
-*  6、案例展示
-*  7、发布需求
-*  8、页脚
-*  9、版权
-* ======Page_Other======
-*/
-body,p,div,span,table,a,h1,h2,h3,li{
-    font-size:100%;
+/*Gansulandi Information technology Co,.Ltd
+ * Theme Name: the name of project
+ * Theme URI: http://www.ldbro.com
+ * Description: the description of project
+ * Version: 1.0 ver
+ * Author: Feng Qiangjun, Zang Tengfei, Ding Guowen, Song Pengcheng
+ * Author URI: http://www.ldbro.com
+ * Tags: tag1,tag2,tag3,tag4,tag5
+ * Project development time: 2016.X.X.
+ *
+ * THE CATALOG
+ * ========Page-Index========
+ *   I. Global property
+ *    1.1 Container
+ *    1.2 Container-fluid
+ *  II. Common property
+ *    2.1 Header
+ *      2.1.1 LOGO
+ *      2.1.2 Navigation Bar
+ *    2.2 Footer
+ *    2.3 Content-image
+ * III. Index property
+ *    3.1 LOGO
+ *    3.2 Navigation Bar
+ *    3.3 Slide Show
+ *    3.4 Main One
+ *    3.5 Main Two
+ *    3.6 Main Three
+ *  IV. Category property
+ *    4.1 Category
+ *    4.2 Category-left
+ *    4.3 Category-right
+ *   V. Single property
+ *    5.1 Single
+ *    5.2 Single-left
+ *    5.3 Single-right
+ *  VI. Page property
+ *    5.1 Page
+ *    5.2 Page-left
+ *    5.3 Page-right
+ * VII. Search property
+ *    5.1 Search
+ *    5.2 Search-left
+ *    5.3 Search-right
+ *
+ *
+ */
+
+/*I. Global property*/
+html{
+    text-align: center;
+    font-size: 20px;
     font-family:"微软雅黑";
+}
+body{
+    background-color: #ECF1F9;
+}
+div.container-fluid{
+    width: 100%;
+    padding: 0!important;
+    margin: 0!important;
+    text-align: left;
 }
 div.container{
     width: 1000px;
@@ -29,13 +69,244 @@ div.container{
     margin-right: auto;
     padding: 0!important;
  }
-div.container-fluid{
-    width: 100%;
-    padding: 0!important;
-    margin: 0!important;
+
+
+
+/*II. Common property*/
+    /*2.1 Header*/
+        /*2.1.1 LOGO*/
+.logo-bg{
+    height: 100px;
+}
+.logo-img{
+    float: left;
+    height: 100px;
+    width: 450px;
+}
+.logo-img span{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-img img{
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+}
+.logo-search{
+    float: right;
+    margin-top: 20px;
+}
+.logo-search input{
+    float: left;
+    width: 150px;
+    height: 25px;
+    border: none;
+    padding: 0 0 0 10px;
+    font-size: 0.7em;
+    background-color: #fff;
+}
+.logo-search button{
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    color: #fff;
+    background-color: #8CBFD4;
 }
 
-/*二、index首页属性*/
+        /*2.1.2 Navigation Bar*/
+.navbar-bg{
+    background-color: #0068B7;
+    height: 45px;
+}
+    /*End Header*/
 
-/*1、导航栏*/
+    /*2.2 Footer*/
+.footer-bg{
+    float: left;
+    height: 90px;
+    background-color: #BCD8A6;
+}
+    /*End Footer*/
+
+    /*2.3 Content-image*/
+.content-img-bg{
+    height: 440px;
+}
+.content-img{
+    height: 420px;
+    background-color: #5C95CA;
+}
+    /*End Content-image*/
+
+
+
+/*III. Index property*/
+    /*3.1 Slideshow*/
+.slide-bg{
+    height: 420px;
+}
+.slide-content{
+    height: 400px;
+    background-color: #6CC1CF;
+}
+    /*End Slideshow*/
+
+    /*3.2 Main One*/
+.mainone-bg{
+    height: 290px;
+}
+.smallslide{
+    float: left;
+    width: 360px;
+    height: 270px;
+    background-color: #8CBFD4;
+}
+.articlelist{
+    float: left;
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    background-color: #B8DBBC;
+}
+    /*End Main One*/
+
+    /*3.3 Main Two*/
+
+.articlethree{
+    width: 590px;
+    margin-left: 0;
+    background-color: #ECEAC9;
+}
+.articlefour{
+    width: 390px;
+    background-color: #A5CDDC;
+}
+    /*End Main Two*/
+
+    /*3.4 Main Three*/
+.articlefive{
+    width: 320px;
+    margin-left: 0;
+    background-color: #BCD8A6;
+}
+.articlesix{
+    width: 320px;
+}
+    /*End Main Three*/
+
+
+
+    /*IV. Category property*/
+    /*4.1 Category*/
+.category-bg{
+    height: 800px;
+}
+    /*End Category*/
+
+    /*4.2 Category-left*/
+.category{
+    height: 800px;
+}
+.categoryleft{
+    float: left;
+    width: 240px;
+    height: 500px;
+    background-color: #BCD8A6;
+}
+    /*End Category-left*/
+
+    /*4.3 Category-right*/
+.categoryright{
+    float: right;
+    width: 740px;
+    height: 780px;
+    background-color: #E7DCE6;
+}
+    /*End Category-right*/
+
+
+
+/*V. Single property*/
+    /*5.1 Single*/
+.single-bg{
+    height: auto;
+}
+    /*End Single*/
+
+    /*5.2 Single-left*/
+.single{
+    float: left;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.singleleft{
+    float: left;
+    width: 240px;
+    height: 500px;
+    background-color: #BCD8A6;
+}
+    /*End Single-left*/
+
+    /*5.3 Single-right*/
+.singleright{
+    float: right;
+    width: 740px;
+    height: auto;
+    background-color: #E7DCE6;
+
+}
+    /*End Single-right*/
+
+
+
+/*VI. Page property*/
+    /*6.1 Page*/
+.page-bg{
+    height: auto;
+}
+    /*End Page*/
+
+    /*6.2 Page-left*/
+.page{
+    float: left;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.pageleft{
+    float: left;
+    width: 240px;
+    height: 500px;
+    background-color: #BCD8A6;
+}
+    /*End Page-left*/
+
+    /*6.3 Page-right*/
+.pageright{
+    float: right;
+    width: 740px;
+    height: auto;
+    background-color: #E7DCE6;
+
+}
+    /*End Page-right*/
+
+
+
+/*VII. Search property*/
+    /*7.1 Search*/
+.search{
+    height: auto;
+    background-color: #5C95CA;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
