@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*蓝迪网络版权所有
+* 项目开发时间:2016年X月X日
+* 目录
+* ======Page_Index======
+* 一、全局属性
+*  1、container属性
+*  2、container-fluid属性
+* 二、index首页属性
+*  1、导航栏
+*  2、幻灯
+*  3、服务范围
+*  4、关于我们
+*  5、开发流程
+*  6、案例展示
+*  7、发布需求
+*  8、页脚
+*  9、版权
+* ======Page_Other======
+*/
+body,p,div,span,table,a,h1,h2,h3,li{
+    font-size:100%;
+    font-family:"微软雅黑";
+}
+div.container{
+     width: 1000px;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+    padding: 0!important;
+ }
+div.container-fluid{
+    width: 100%;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+/*二、index首页属性*/
+
+/*1、导航栏*/
+
