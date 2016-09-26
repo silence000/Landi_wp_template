@@ -110,7 +110,6 @@ div.container{
     float: left;
     width: 25px;
     height: 25px;
-    padding: 0;
     border: none;
     color: #fff;
     background-color: #8CBFD4;
@@ -127,17 +126,36 @@ div.container{
 .footer-bg{
     float: left;
     height: 90px;
-    background-color: #BCD8A6;
+    background-color: #989DA5;
+    border-top: 5px solid #0068B7;
+}
+.footer-bg p{
+    color: #ffffff;
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 28px;
+}
+.footer-bg p a{
+    color: #FFFFFF;
+}
+.footer-bg p a:hover{
+    color: #08A5E0;
 }
     /*End Footer*/
 
     /*2.3 Content-image*/
 .content-img-bg{
-    height: 440px;
+    height: 320px;
+    overflow-x: hidden;
 }
 .content-img{
-    height: 420px;
-    background-color: #5C95CA;
+    height: auto;
+    min-width: 1000px;
+    position: relative;
+    left:50%;
+    margin-left:-960px;
+    width:1920px;
+    overflow: hidden;
 }
     /*End Content-image*/
 
@@ -169,7 +187,55 @@ div.container{
     width: 300px;
     height: 270px;
     margin-left: 20px;
-    background-color: #B8DBBC;
+    background-color: #FFFFFF;
+    font-size: 0.7em;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
+}
+.articlelist-title{
+    padding: 10px;
+    border-bottom: 3px solid #0068B7;
+    margin: 0;
+}
+.articlelist-title p{
+    height: 1.2em;
+}
+.articlelist-title p span{
+    float: left;
+    font-size: 1.15em;
+    font-weight: 600;
+
+}
+.articlelist-title p a{
+    float: right;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+.articlelist-content{
+    margin: 10px 15px 10px 10px;
+}
+.articlelist-content ul li{
+    height: auto;
+    width: 100%;
+    padding-left: 5px;
+    border-bottom: 2px dotted #CCCCCC;
+    float: left;
+    line-height: 28px;
+}
+.articlelist-content ul li a{
+    float: left;
+    width: 180px;
+    height: 28px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333333;
+}
+.articlelist-content ul li span{
+    float: right;
+    padding-right: 5px;
 }
     /*End Main One*/
 
@@ -178,11 +244,15 @@ div.container{
 .articlethree{
     width: 590px;
     margin-left: 0;
-    background-color: #ECEAC9;
+}
+.articlethree li a{
+    width: 460px!important;
 }
 .articlefour{
     width: 390px;
-    background-color: #A5CDDC;
+}
+.articlefour li a{
+    width: 270px!important;
 }
     /*End Main Two*/
 
@@ -190,7 +260,6 @@ div.container{
 .articlefive{
     width: 320px;
     margin-left: 0;
-    background-color: #BCD8A6;
 }
 .articlesix{
     width: 320px;
@@ -202,19 +271,45 @@ div.container{
     /*IV. Category property*/
     /*4.1 Category*/
 .category-bg{
-    height: 800px;
+    height: 480px;
 }
     /*End Category*/
 
     /*4.2 Category-left*/
 .category{
-    height: 800px;
+    height: auto;
 }
 .categoryleft{
     float: left;
     width: 240px;
-    height: 500px;
-    background-color: #BCD8A6;
+    height: auto;
+    border-top: 6px solid #0068B7;
+}
+.categoryleft ul{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0 10px 0px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
+}
+.categoryleft ul li a{
+    display: inline-block;
+    font-size: 0.7em;
+    color: #333333;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 190px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.categoryleft ul li a:hover{
+    background-color: #0068B7;
+    color: #FFFFFF;
 }
     /*End Category-left*/
 
@@ -222,8 +317,42 @@ div.container{
 .categoryright{
     float: right;
     width: 740px;
-    height: 780px;
-    background-color: #E7DCE6;
+    height: auto;
+    background-color: #FFFFFF;
+    font-size: 0.7em;
+}
+.categoryright li{
+    line-height: 35px!important;
+}
+.categoryright li a{
+    width: 620px!important;
+    height: 35px!important;
+}
+.paging{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.paging a.current {
+    border: 1px solid #00a0ea;
+    color: #00A0EA;
+    font-weight: bolder;
+}
+.paging a {
+    padding: 3px 8px;
+    margin: 2px;
+    text-decoration: none;
+    color: #888;
+    border: 1px solid #A0A0A0;
+}
+.paging a:hover{
+    color: #FFFFFF;
+    background-color: #00a0ea;
+    border: 1px solid #00a0ea;
 }
     /*End Category-right*/
 

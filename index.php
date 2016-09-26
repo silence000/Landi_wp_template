@@ -14,15 +14,41 @@
     <div class="container">
 
         <div class="smallslide">
-            This is the small Slide-show.
+            <?php include 'plugins/smallslide/smallslide.php';?>
         </div>
 
         <div class="articlelist">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
         <div class="articlelist">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -35,11 +61,37 @@
     <div class="container">
 
         <div class="articlelist articlethree">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
         <div class="articlelist articlefour">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -51,15 +103,54 @@
     <div class="container">
 
         <div class="articlelist articlefive">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
         <div class="articlelist articlesix">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
         <div class="articlelist articlesix">
-            This is the Articlelist.
+            <div class="articlelist-title">
+                <p><span>分类标题</span><a href="">MORE+</a></p>
+            </div>
+            <div class="articlelist-content">
+                <ul>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                </ul>
+            </div>
         </div>
 
     </div>

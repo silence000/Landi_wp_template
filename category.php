@@ -6,11 +6,39 @@
     <div class="container">
         <div class="category">
             <div class="categoryleft">
-                This is category left.
+                <ul>
+                    <li><a href="#">测试侧边栏</a></li>
+                    <li><a href="#">测试侧边栏</a></li>
+                    <li><a href="#">测试侧边栏</a></li>
+                    <li><a href="#">测试侧边栏</a></li>
+                    <li><a href="#">测试侧边栏</a></li>
+                    <li><a href="#">测试侧边栏</a></li>
+                </ul>
             </div>
 
             <div class="categoryright">
-                This is category right.
+                <div class="articlelist-content">
+                    <ul>
+                        <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                        <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    </ul>
+                </div>
+
+                <div class="paging">
+                    <a href="#" class="current">1</a>
+                    <a href="#">2</a>
+                    <a href="#"> 下一页 </a>
+                    <a href="#" class="extend" title="跳转到最后一页"> 最后一页 </a>
+                </div>
+
             </div>
         </div>
     </div>

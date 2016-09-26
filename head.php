@@ -26,6 +26,9 @@
         <!--navbar-->
         <link href="plugins/navbar/navbar.css" rel="stylesheet" type="text/css">
         <script src="plugins/navbar/navbar.js"></script>
+        <!--smallslide-->
+        <link href="plugins/smallslide/smallslide.css" rel="stylesheet" type="text/css">
+        <script src="plugins/smallslide/smallslide.js"></script>
 
     <!--My stylesheet link-->
     <link href="css/style.css" rel="stylesheet" type="text/css" >
