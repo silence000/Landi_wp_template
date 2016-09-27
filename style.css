@@ -20,6 +20,8 @@
  *      2.1.2 Navigation Bar
  *    2.2 Footer
  *    2.3 Content-image
+ *    2.4 Left sidebar
+ *    2.5 Crumbs
  * III. Index property
  *    3.1 LOGO
  *    3.2 Navigation Bar
@@ -29,8 +31,7 @@
  *    3.6 Main Three
  *  IV. Category property
  *    4.1 Category
- *    4.2 Category-left
- *    4.3 Category-right
+ *    4.2 Category-right
  *   V. Single property
  *    5.1 Single
  *    5.2 Single-left
@@ -55,6 +56,7 @@ html{
 }
 body{
     background-color: #ECF1F9;
+    overflow-x: hidden;
 }
 div.container-fluid{
     width: 100%;
@@ -119,6 +121,7 @@ div.container{
 .navbar-bg{
     background-color: #0068B7;
     height: 45px;
+    min-width: 1000px;
 }
     /*End Header*/
 
@@ -159,16 +162,78 @@ div.container{
 }
     /*End Content-image*/
 
+    /*2.4 Left-sidebar*/
+.category{
+    height: auto;
+}
+.categoryleft{
+    float: left;
+    width: 240px;
+    height: auto;
+    border-top: 6px solid #0068B7;
+}
+.categoryleft ul{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0 10px 0px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
+}
+.categoryleft ul li a{
+    display: inline-block;
+    font-size: 0.7em;
+    color: #333333;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 190px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.categoryleft ul li a:hover{
+    background-color: #0068B7;
+    color: #FFFFFF;
+}
+    /*End Left-Sidebar*/
+
+    /*2.5 Crumbs*/
+#crumbs{
+    font-size: 0.7em;
+    margin: 20px;
+}
+    /*End Crumbs*/
+
 
 
 /*III. Index property*/
     /*3.1 Slideshow*/
 .slide-bg{
     height: 420px;
+
 }
 .slide-content{
     height: 400px;
-    background-color: #6CC1CF;
+    min-width: 1920px;
+    position: relative;
+    left:50%;
+    margin-left: -960px !important;
+    width:1920px;
+    overflow: hidden;
+}
+#meteor-slideshow{
+    position: relative;
+}
+#meteor-buttons{
+    position: absolute;
+    width: 100px;
+    /*background-color: #00a0ea;*/
+    bottom: 20px;
+    left: 50%;
+    margin-left: -50px;
 }
     /*End Slideshow*/
 
@@ -275,45 +340,7 @@ div.container{
 }
     /*End Category*/
 
-    /*4.2 Category-left*/
-.category{
-    height: auto;
-}
-.categoryleft{
-    float: left;
-    width: 240px;
-    height: auto;
-    border-top: 6px solid #0068B7;
-}
-.categoryleft ul{
-    width: 100%;
-    margin-top: 15px;
-    padding: 10px 0 10px 0px;
-    background-color: #FFFFFF;
-    -webkit-box-shadow: 1px 1px 10px #dddddd;
-    -moz-box-shadow: 1px 1px 10px #dddddd;
-    box-shadow: 1px 1px 10px #dddddd;
-}
-.categoryleft ul li a{
-    display: inline-block;
-    font-size: 0.7em;
-    color: #333333;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 190px;
-    height: 25px;
-    line-height: 25px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.categoryleft ul li a:hover{
-    background-color: #0068B7;
-    color: #FFFFFF;
-}
-    /*End Category-left*/
-
-    /*4.3 Category-right*/
+    /*4.2 Category-right*/
 .categoryright{
     float: right;
     width: 740px;
@@ -331,6 +358,7 @@ div.container{
 .paging{
     width: 100%;
     height: 36px;
+    font-size: 0.7em;
     line-height: 36px;
     text-align: center;
     overflow: hidden;
@@ -381,12 +409,33 @@ div.container{
     /*End Single-left*/
 
     /*5.3 Single-right*/
-.singleright{
+.article{
     float: right;
     width: 740px;
     height: auto;
-    background-color: #E7DCE6;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
 
+}
+.article h1{
+    font-size: 1em;
+    text-align: center;
+}
+.article-info{
+    font-size: 0.6em;
+    text-align: center;
+    color: #c0c0c0;
+}
+.article-content{
+    font-size: 0.7em;
+    margin: 20px;
+    line-height: 2;
+}
+.article-backnext{
+    font-size: 0.7em;
+    margin: 20px;
 }
     /*End Single-right*/
 
@@ -419,7 +468,10 @@ div.container{
     float: right;
     width: 740px;
     height: auto;
-    background-color: #E7DCE6;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
 
 }
     /*End Page-right*/
@@ -430,12 +482,36 @@ div.container{
     /*7.1 Search*/
 .search{
     height: auto;
-    background-color: #5C95CA;
     margin-bottom: 20px;
 }
-
-
-
+.search-list{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 10px #dddddd;
+    -moz-box-shadow: 1px 1px 10px #dddddd;
+    box-shadow: 1px 1px 10px #dddddd;
+}
+.search-title{
+    padding: 15px;
+    height: 20px;
+    border-bottom: 2px solid #555555;
+}
+.search-title h1{
+    margin: 0;
+    float: left;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.search-title p{
+    float: right;
+    display: inline-block;
+    font-size: 0.65em;
+}
+.search-digest p{
+    margin: 20px;
+    font-size: 0.65em;
+    padding-bottom: 20px;
+    color: #555555;
+}
 
 
 

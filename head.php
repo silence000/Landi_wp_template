@@ -11,28 +11,29 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <?php wp_head(); ?>
+    <link rel="stylesheet" href="wp-content/themes/landinetwork/css/normalize.css">
+    <link rel="stylesheet" href="wp-content/themes/landinetwork/css/main.css">
     <!--font-awesome.css-->
-    <link href="css/font-awesome-4.5.0.min.css" rel="stylesheet" type="text/css">
+    <link href="wp-content/themes/landinetwork/css/font-awesome-4.5.0.min.css" rel="stylesheet" type="text/css">
     <!--Animate.css-->
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="wp-content/themes/landinetwork/css/animate.min.css" rel="stylesheet" type="text/css">
     <!--jQuery-->
     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="wp-content/themes/landinetwork/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
     <!--Plugins-->
         <!--navbar-->
-        <link href="plugins/navbar/navbar.css" rel="stylesheet" type="text/css">
-        <script src="plugins/navbar/navbar.js"></script>
+        <link href="wp-content/themes/landinetwork/plugins/navbar/navbar.css" rel="stylesheet" type="text/css">
+        <script src="wp-content/themes/landinetwork/plugins/navbar/navbar.js"></script>
         <!--smallslide-->
-        <link href="plugins/smallslide/smallslide.css" rel="stylesheet" type="text/css">
-        <script src="plugins/smallslide/smallslide.js"></script>
+        <link href="wp-content/themes/landinetwork/plugins/smallslide/smallslide.css" rel="stylesheet" type="text/css">
+        <script src="wp-content/themes/landinetwork/plugins/smallslide/smallslide.js"></script>
 
     <!--My stylesheet link-->
-    <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link href="wp-content/themes/landinetwork/style.css" rel="stylesheet" type="text/css" >
+    <script src="wp-content/themes/landinetwork/js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
 <body>
 <!--[if lt IE 7]>

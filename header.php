@@ -4,7 +4,7 @@
 <div class="container-fluid logo-bg">
     <div class="container">
         <div class="logo-img">
-            <span></span><img src="img/logo.png">
+            <span></span><img src="wp-content/themes/landinetwork/img/logo.png">
         </div>
         <div class="logo-search">
             <form action="">

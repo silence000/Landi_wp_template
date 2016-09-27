@@ -2,8 +2,8 @@
 
 <!--Slide Begin-->
 <div class="container-fluid slide-bg">
-    <div class="container-fluid slide-content">
-        This is the Slide-show.
+    <div class="slide-content">
+       <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
     </div>
 </div>
 <!--Slide End-->
