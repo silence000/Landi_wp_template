@@ -6,6 +6,8 @@
     overflow: hidden;
 }
 #smallslide_list img {
+	width: 360px;
+    height: 270px;
     border: 0px;
 }
 #smallslide_bg {

@@ -8,7 +8,7 @@
         </div>
         <div class="logo-search">
             <form action="">
-                <input placeholder="Search">
+                <input placeholder="Search" id="s" name="s">
                 <button  class="fa fa-search"></button>
             </form>
         </div>

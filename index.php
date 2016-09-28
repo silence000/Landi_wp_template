@@ -8,7 +8,6 @@
 </div>
 <!--Slide End-->
 
-
 <!--Main One Begin-->
 <div class="container-fluid mainone-bg">
     <div class="container">
@@ -19,34 +18,32 @@
 
         <div class="articlelist">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                	<?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
 
         <div class="articlelist">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
@@ -62,34 +59,32 @@
 
         <div class="articlelist articlethree">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
 
         <div class="articlelist articlefour">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test2');  echo $cat->name;?></span>
+                	<a href="<?php  echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test2')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
@@ -104,51 +99,48 @@
 
         <div class="articlelist articlefive">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题文章标题文章标题文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
 
         <div class="articlelist articlesix">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
 
         <div class="articlelist articlesix">
             <div class="articlelist-title">
-                <p><span>分类标题</span><a href="">MORE+</a></p>
+                <p>
+                	<span><?php $cat=get_category_by_slug('test11');  echo $cat->name;?></span>
+                	<a href="<?php echo '?cat='.$cat->cat_ID; ?>">MORE+</a>
+                </p>
             </div>
             <div class="articlelist-content">
                 <ul>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
-                    <li><a href="#">>&nbsp;文章标题文章标题</a><span>2016-x-xx</span></li>
+                    <?php query_posts(array('showposts'=>7,'category_name'=>'test11')); while(have_posts()) : the_post(); ?>
+                    <li><a href="<?php echo the_permalink() ?>">>&nbsp;<?php the_title(); ?></a><span><?php the_time('Y-m-d'); ?></span></li>
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>

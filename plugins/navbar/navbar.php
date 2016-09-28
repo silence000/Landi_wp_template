@@ -1,4 +1,4 @@
-<div class="container navbar">
+<!--<div class="container navbar">
 <ul id="navul" class="navclass">
     <li>
         <a href="#">首页</a>
@@ -34,16 +34,16 @@
     <li><a href="#">教师培养</a></li>
     <li><a href="#">联系我们</a></li>
 </ul>
-</div>
+</div>-->
 <?php
-//wp_nav_menu(
-//    array(
-//        'container'       => 'div', //最外层容器标签名
-//        'container_class' => 'navbar', //最外层容器class名
-//        'menu' => 'navbar', //菜单名称
-//        'theme_location' => 'primary',
-//        'menu_class' => 'navclass', //外层ul的类名
-//        'menu_id' => 'navul', //外层ul的id名
-//    )
-//);
+wp_nav_menu(
+      array(
+          'container'       => 'div', //最外层容器标签名
+          'container_class' => 'container navbar', //最外层容器class名
+          'menu' => 'navbar', //菜单名称
+          'theme_location' => 'primary',
+          'menu_class' => 'navclass', //外层ul的类名
+          'menu_id' => 'navul', //外层ul的id名
+      )
+);
 ?>
