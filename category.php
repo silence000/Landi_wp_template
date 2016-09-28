@@ -1,10 +1,12 @@
-<?php include 'header.php';?>
+<?php get_header(); ?>
 <?php include 'content-image.php';?>
 <div class="container-fluid category-bg">
 
     <div class="container">
         <div class="category">
-            <?php include "sidebar.php"; ?>
+            <?php //include "sidebar.php";
+            get_sidebar();
+            ?>
 
             <div class="categoryright">
             	<?php include "crumbs.php"; ?>
@@ -24,4 +26,4 @@
     </div>
 
 </div>
-<?php include 'footer.php';?>
+<?php get_footer(); ?>

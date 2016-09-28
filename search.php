@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php get_header(); ?>
 <?php include 'content-image.php';?>
 	
     <div class="container-fluid search-bg">
@@ -24,4 +24,4 @@
 
         </div>
     </div>
-<?php include 'footer.php';?>
+<?php get_footer(); ?>

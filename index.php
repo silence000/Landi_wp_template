@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php get_header(); ?>
 
 <!--Slide Begin-->
 <div class="container-fluid slide-bg">
@@ -149,4 +149,4 @@
 </div>
 <!--Main Three End-->
 
-<?php include 'footer.php';?>
+<?php get_footer(); ?>

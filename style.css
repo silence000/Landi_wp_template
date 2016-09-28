@@ -168,6 +168,14 @@ div.container{
 .category{
     height: auto;
 }
+.sidebox h2{
+    font-size: 0.8em;
+    margin: 10px 0;
+
+}
+.sidebox ul{
+    margin: 0!important;
+}
 .categoryleft{
     float: left;
     width: 240px;
