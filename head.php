@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">	
+    <meta name="renderer" content="ie-stand">
     <title>
         <?php
         if (is_home()) {
